@@ -1,4 +1,4 @@
-(define (third_func first_int second_int third_int)
+(define (func first_int second_int third_int)
   (if ( > first_int second_int) 
     (+ ( * first_int first_int) 
       (if ( > second_int third_int)
@@ -17,3 +17,5 @@
     )
   )
 )
+
+(exit)
