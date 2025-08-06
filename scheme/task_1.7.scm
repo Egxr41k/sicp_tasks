@@ -13,9 +13,9 @@
 	(/ (+ x y) 2))
 
 (define (abs x)
-(if (< x 0)
-(- 0 x)
-x))
+  (if (< x 0)
+    (- 0 x)
+    x))
 
 (display (sqrt-iter 0.0 1.0 9.0))
 (newline)
